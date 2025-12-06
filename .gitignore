@@ -1,0 +1,35 @@
+# --- Python ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# --- Node.js (Frontend) ---
+node_modules/
+dist/
+build/
+.DS_Store
+
+# --- Logs and Data ---
+crowd_logs/
+logs/
+Crowd files/
+*.csv
+*.log
+pro/
+
+# --- Executables ---
+*.exe
+ngrok.exe
+
+# --- IDE Settings ---
+.vscode/
+.idea/
+
+# --- Secrets (Safety Net) ---
+.env
+# If you have a specific file with passwords, add it here:
+secrets.py
+py.py
+real.py
